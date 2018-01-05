@@ -1,0 +1,73 @@
+.events .mainContainerMarginPadding {
+  
+  float: left;
+  width: 100%; }
+  .events .mainContainerMarginPadding .resetBootstrapPadding {
+    padding-right: 0;
+    padding-left: 0; }
+  .events .mainContainerMarginPadding .commonContainerStyle {
+    width: 100%;
+    float: left;
+    padding: 30px 0; }
+  .events .mainContainerMarginPadding .heading {
+    display: block; }
+    .events .mainContainerMarginPadding .heading h2 {
+        margin-top:0;
+    }
+  .events .mainContainerMarginPadding .subHeading {
+    display: block;
+    padding-bottom: 20px; }
+  .events .mainContainerMarginPadding .showMoreContainer {
+    float: left;
+    width: 100%;
+    /*border-top: 1px solid #dddddd;*/
+    border-bottom: 1px solid #dddddd;
+    text-align: center;
+    padding: 15px; }
+  .events .mainContainerMarginPadding .card-view-events {
+    margin: 10px 0 30px 0; height:445px;}
+    .events .mainContainerMarginPadding .card-view-events:hover .card-border-left {border-left: 1px solid #F4781E !important;
+    }
+  .events .mainContainerMarginPadding .dropdown .dropDownBtnCustom {
+    border-color: transparent;
+    padding: 10px 10px; }
+    .events .mainContainerMarginPadding .dropdown .dropDownBtnCustom .dropDownImage {
+      margin-left: 10px; }
+  .events .mainContainerMarginPadding .dropdown .dropdown-menu > li > a {
+    text-align: center; }
+  .events .mainContainerMarginPadding .dropdown .dropdown-menu > .active > a, .events .mainContainerMarginPadding .dropdown .dropdown-menu > .active > a:hover, .events .mainContainerMarginPadding .dropdown .dropdown-menu > .active > a:focus {
+    background-color: #f4781E; }
+  .events .mainContainerMarginPadding .dropdown .dropdown-menu > li > a:hover, .events .mainContainerMarginPadding .dropdown .dropdown-menu > li > a:focus {
+    background-color: #f7f7f7; }
+.events .card-view-events .speaker-container, .events .card-view-events .lower-container {
+    padding-left:0;
+}
+@media only screen and (min-width: 568px) and (max-width: 767px) {
+  .events .mainContainerMarginPadding .xs-button-center-container .xs-button-center {
+    float: left !important;
+    margin: 0; }
+
+}
+@media only screen and (min-width: 320px) and (max-width: 567px) {
+  .events .tag span {
+    font-size: 34px; }
+  .events .mainContainerMarginPadding {
+    padding: 0; }
+    .events .mainContainerMarginPadding .commonContainerStyle {
+      padding: 20px; }
+    .events .mainContainerMarginPadding .heading {
+      font-size: 24px; }
+    .events .mainContainerMarginPadding .subHeading {
+      padding: 0 20px 20px 20px; }
+    .events .mainContainerMarginPadding .xs-button-center-container {
+      text-align: center; }
+      .events .mainContainerMarginPadding .xs-button-center-container .xs-button-center {
+        float: none !important;
+        margin: 20px 0 10px 0; }
+/*newly added 25/05/2015*/ 
+.events .card-view-events .speaker-container, .events .card-view-events .lower-container {padding-left:20px;}
+.common .card-view-events .upper-container {margin-left:20px;}
+/*newly added 25/05/2015*/ 
+      }
+
+/*# sourceMappingURL=events.css.map */

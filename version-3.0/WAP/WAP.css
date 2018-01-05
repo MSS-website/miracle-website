@@ -1,0 +1,107 @@
+#body{
+    
+    background:linear-gradient(0deg,rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url('Images/laptop1.jpg')  no-repeat;
+    background-size:cover;
+    background-attachment:fixed;height:100%; width:100%;
+}
+
+@media only screen and (max-width:768px){
+    #body {
+        padding:10px !important;
+    }
+}
+
+.loginBody{
+    padding:20px;
+    background-color:#fff !important;
+    border-radius:2px;
+}
+
+.search-form input[type="search"] {  
+    	-webkit-box-shadow: none;
+    	outline: -webkit-focus-ring-color auto 0px;
+} 
+
+
+.btn-default{
+    width:100%;
+    background-color:#2368a0 !important;
+    color:#fff !important;
+    font-weight:600 !important;
+    border:1px solid #2368a0 !important;
+    outline:none !important;
+}
+.notreg{
+    padding-top: 10px;
+    color: #8c8c8c;
+    font-size: 14px;
+}
+
+.signup{
+    
+    color: #2368a0;
+    font-size: 14px;
+    font-weight:600 !important;
+    outline:none !important;
+    text-decoration:none !important;
+}
+/*end of Login & Signup page*/
+/*home page*/
+.bg {
+    border-radius: 0px!important;
+    background-color:#0d416b !important;
+    border:none;
+    min-height: 55px;
+    }
+.fnt{
+    font-size:16px !important;
+}    
+.cont{
+    margin-right:-60px;
+}
+/*side bar*/
+
+h1 {
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+.wdth{width:177px !important;}
+@media (min-width: 768px) {
+
+    .brand-pills > li > a {
+        border-top-right-radius: 0px;
+    	border-bottom-right-radius: 0px;
+    }
+    
+    li.brand-nav.active a:after{
+    	content: " ";
+    	display: block;
+    	width: 0;
+    	height: 0;
+    	border-top: 20px solid transparent;
+    	border-bottom: 20px solid transparent;
+    	border-left: 9px solid #428bca;
+    	position: absolute;
+    	top: 50%;
+    	margin-top: -20px;
+    	left: 100%;
+    	z-index: 2;
+    }
+}
+/*button*/
+.clr{background-color: #232527 !important;
+color: #fff !important;
+margin-left: 5px !important;
+border:#232527 !important;
+    
+}
+
+.scs:hover{
+    background-color:#008d4c!important;
+    border: #008d4c !important;
+}
+
+.scs{
+    background-color:#008d4c!important;
+    border: #008d4c !important;
+}

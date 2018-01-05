@@ -1,0 +1,128 @@
+body {
+  padding-top: 50px ;
+}
+.caro-container {
+  padding: 13px 0px !important;
+}
+
+.carousel-indicators {
+	bottom: 0 !important;
+}
+.carousel-control.right,
+.carousel-control.left {
+	background-image: none;
+}
+.carousel .item {
+	min-height: 230px; 
+	height: 100%;
+	width:100%;
+
+}
+.font-caro1{
+	font-size:42px!important;
+	color:#34495e ;
+	padding-bottom:0!important;
+	font-family:'Lato', Roboto,sans-serif;
+	
+}
+.font-caro2{
+	font-size:28px !important;
+	color:#3498db !important;
+	padding-bottom:0!important;
+	font-family:'Lato', Roboto,sans-serif;
+	
+}
+.font-caro3{
+	font-size:23px !important;
+	color:#3498db !important;
+	padding-bottom:0!important;
+	font-family:'Lato', Roboto,sans-serif;
+	
+}
+.font-caro4{
+	font-size:20px !important;
+	color:#0c66a3!important;
+	font-family:'Lato', Roboto, sans-serif !important;
+	
+}
+
+.font-caro{
+	font: 45px  !important;
+	color:#000 !important;
+	}
+.font-caro-cap{
+	font: 25px arial, sans-serif !important;	
+	color:#000 !important;
+	padding-top:0px!important;
+	transition:;
+	}
+.fourservices:hover{
+	
+}
+.cap-text{
+	 font-size:40px !important;
+	 color:black !important;
+}
+.container {
+    width: 100% !important;
+}
+
+.carousel-caption1 h3
+{
+	background-color: #000;
+	color: #fff !important;
+	width:700px !important;	
+}
+.carousel-caption2 h3
+{
+	background-color: #000;
+	color: #fff !important;
+	width:700px;	
+}
+.carousel .icon-container{
+	background-color: #000 !important;
+	color: #fff !important;
+	width:700px !important;	
+}
+.carousel-caption button {
+	background-color: #232529;
+	color: #428bca !important;
+	width:200px;
+}
+.carousel-caption h3 {
+	padding: .5em;
+
+}
+.carousel .icon-container {
+	display: inline-block !important;
+	font-size: 25px !important;
+	line-height: 25px !important;
+	padding: 1em !important;
+	text-align: center !important;
+	
+	border-radius: 50% !important;
+}
+.carousel-caption button {
+	border-color: #00bfff !important;
+	margin-top: 1em !important; 
+}
+
+/* Animation delays */
+.carousel-caption h3:first-child {
+	-webkit-animation-delay: 1s !important;
+	animation-delay: 1s !important;
+}
+.carousel-caption h3:nth-child(2) {
+	-webkit-animation-delay: 2s !important;
+	animation-delay: 1s !important;
+}
+.carousel-caption button {
+	-webkit-animation-delay: 3s !important;
+	animation-delay: 3s !important;
+}
+
+
+
+	.fantasy {
+    font-family: Century Gothic, sans-serif;
+}

@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta content="width=device-width, initial-scale=1.0" name="viewport">
+      <title>
+         CRE Registration
+      </title>
+      <link href='http://fonts.googleapis.com/css?family=Roboto:300,300italic,400,500,700%7cCourgette%7cRaleway:400,700,500%7cCourgette%7cLato:700' rel='stylesheet' type='text/css'>
+      <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+      <link href="./multistep-css/bootstrap.min.css" rel="stylesheet">
+      <link href="./multistep-css/font-awesome.min.css" rel="stylesheet">
+      <link href="./multistep-css/main.css" rel="stylesheet">
+      <link href="./multistep-css/default.css" rel="stylesheet" type="text/css">
+      <link href="./multistep-css/component.css" rel="stylesheet" type="text/css">
+<!--HEADER------------>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+      <script src="./multistep-js/bootstrap.min.js"></script>
+         <link rel="shortcut icon" href="../images/favicon.ico">
+       <!--range slider link-->
+       <link href='http://fonts.googleapis.com/css?family=Quantico' rel='stylesheet' type='text/css'>
+        <!--range slider link-->
+         <!--dynamic div link-->
+      <link rel="stylesheet" href=" http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.4/themes/ui-lightness/jquery-ui.css
+" type="text/css" />
+      <!--dynamic div link-->
+      <script src="./multistep-js/main.js"></script>
+ 
+      <!--HEADER------------>
+     
+   
+     
+   </body>
+</html>
+<!--HEADER------------>
+</head><!--/head-->
+<body>
+   
+   <section class="container">
+      <br>
+      <br>
+      <br>
+     
+      
+      <div class="row">
+         <div class="col-sm-7 text-left">
+            <h1 class="heavy">
+            </h1>
+         </div>
+         
+         <form>
+            <div class="tab-content">
+               
+               
+               <!-- PAGE ONE STARTS HERE -->
+               
+                <div class="row">
+          <div class="col-sm-2">
+         <a data-toggle="tab" href="#pagefour"><button class="btn btn-primary btn-md col-sm-12" onclick="goTop();"  type="button">Next</button></a>
+         <br><br><br>
+         </div>
+      </div> 
+           
+         
+   <!-- PAGE FOUR STARTS HERE -->
+          
+          
+          <div class="tab-pane" id="pagefour">
+         <div class="row">
+         <div id="page-content">
+         <!-- Top Header (Fixed) Header -->
+         <div id="content">
+         <div class="form-container">
+         <div id="tmm-form-wizard" class="container substrate">
+         
+          <div class="col-sm-1"></div>
+        
+    
+       <script language="javascript">
+  function addRow(tableID){
+    var table=document.getElementById(tableID);
+    var rowCount=table.rows.length;
+    var row=table.insertRow(rowCount);
+    var colCount=table.rows[0].cells.length;for(var i=0;i<colCount;i++){
+      var newcell=row.insertCell(i);
+      newcell.innerHTML=table.rows[0].cells[i].innerHTML;
+      switch(newcell.childNodes[0].type){
+        case"text":newcell.childNodes[0].value="";
+          break;
+        case"checkbox":newcell.childNodes[0].checked=false;
+          break;
+        case"select-one":newcell.childNodes[0].selectedIndex=0;
+          break;
+      }}
+      }
+          function deleteRow(tableID){
+          try{
+          var table=document.getElementById(tableID);
+          var rowCount=table.rows.length;for(var i=0;i<rowCount;i++){
+          var row=table.rows[i];
+          var chkbox=row.cells[0].childNodes[0];
+          if(null!=chkbox&&true==chkbox.checked){
+          if(rowCount<=1){
+         bootbox.dialog({
+        message: "I am a custom dialog",
+        title: "Custom title",
+        buttons: {
+          success: {
+      label: "Success!",
+      className: "btn-success",
+      callback: function() {
+        Example.show("great success");
+      }
+    },
+    danger: {
+      label: "Danger!",
+      className: "btn-danger",
+      callback: function() {
+        Example.show("uh oh, look out!");
+      }
+    },
+    main: {
+      label: "Click ME!",
+      className: "btn-primary",
+      callback: function() {
+        Example.show("Primary button");
+      }
+    }
+  }
+});
+          break;
+      }
+          table.deleteRow(i);
+          rowCount--;
+          i--;
+      }}
+      }catch(e){
+          alert(e);
+      }}
+ </script>
+      
+          <form action="/" role="form">
+         <div class="">
+         <div class="row">
+         <div class="col-md-12">
+         <div class="row">
+           
+               <table id="dataTable1"class="table table-hover table-striped" >
+                    <thead>
+                     <tr>
+                     <td>#</td>
+                        <td><strong>Company Name</strong></td>
+                        <td><strong>Designation</strong></td>
+                        <td><strong>From</strong></td>
+                        <td><strong>To</strong></td>
+                        <td><strong>Location</strong></td>
+                     </tr>
+                     </thead>
+                     <tbody id="dataTable">
+                        <tr>
+                          <TD><INPUT type="checkbox" name="chk"/></TD>
+                           <td>
+                              <input type="text" class="form-control"   placeholder="Name" id="Name" name="Skill" >
+                           </td>
+                           <td>
+                              <input type="text" class="form-control"   placeholder="Job Role" id="Name" name="Skill" >
+                           </td>
+                           <td>
+                              <input type="date" class="form-control"   placeholder="Year" id="Name" name="Skill" >
+                           </td>
+                           <td>
+                              <input type="date" class="form-control"   placeholder="Year" id="Name" name="Skill" >
+                           </td>
+                           <td>
+                              <input type="text" class="form-control"   placeholder="Place" id="Name" name="Skill" >
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+              <div class="row">
+              <div class="col-sm-2 ">
+              <a data-toggle="tooltip" data-placement="top" title="Add Skill" type="button" value="Add Row" onclick="addRow('dataTable')" class="btn btn-success left" href="#"><i class="icon-plus"></i></a>
+              
+              
+              <a data-toggle="tooltip" data-placement="top" title="Delete Skill" type="button" value="Delete Row" onclick="deleteRow('dataTable')" class="btn btn-danger center" href="#"><i class="icon-minus"></i></a>
+              
+               <a data-toggle="tooltip" data-placement="top" title="Edit Skill" type="button" value="" onclick="" class="btn btn-primary right" href="#"><i class="icon-pencil"></i></a>
+              </div>
+                <div class="col-sm-10"></div>
+      </div>
+     <div class="row">  
+     <div class="col-sm-6">
+        <TABLE id="dataTable" width="50px" border="0" class="table table-hover table-striped" >
+		<hr>
+		<thead>
+		    <tr>
+		         <td>#</td>
+               <td><strong>Skill</strong></td>
+               <td><strong>Scale</strong></td>
+            </tr>
+                     </thead>
+			<tbody id="dataTablee">
+		<TR>
+	      <TD><INPUT type="checkbox" name="chk"/></TD>
+         <TD><INPUT type="text" name="txt" class="form-control"  placeholder="Skill"/></TD>
+			<TD><link href='http://fonts.googleapis.com/css?family=Quantico' rel='stylesheet' type='text/css'>
+<div class="container">
+  <div class="slider">
+  <input type = "range" min="0" max="10"  onchange="rangevalue.value=value"/>
+	<output id="rangevalue">5</output>
+  </div>
+  </div></TD>
+		</TR>
+		</tbody>
+	</TABLE>
+     </div>
+     <div class="col-sm-6"></div>
+     </div>
+   
+	
+	<div class="row">
+              <div class="col-sm-2 ">
+              <a data-toggle="tooltip" data-placement="top" title="Add Skill" type="button" value="Add Row" onclick="addRow('dataTablee')" class="btn btn-success left" href="#"><i class="icon-plus"></i></a>
+              
+              
+              <a data-toggle="tooltip" data-placement="top" title="Delete Skill" type="button" value="Delete Row" onclick="deleteRow('dataTablee')" class="btn btn-danger center" href="#"><i class="icon-minus"></i></a>
+              
+               <a data-toggle="tooltip" data-placement="top" title="Edit Skill" type="button" value="" onclick="" class="btn btn-primary right" href="#"><i class="icon-pencil"></i></a>
+              </div>
+                <div class="col-sm-10"></div>
+      </div>
+      </div>  <!--/ .row-->
+       <div class="row">
+         <div class="col-sm-2">
+         <br>
+         <a data-toggle="tab" href="#pagethree"><button class="btn btn-primary btn-md col-sm-11 left" onclick="goTop();" type="button">Prev</button></a>
+         </div>
+         <div class="col-sm-8"></div>
+         <div class="col-sm-2">
+         <br> 
+         <a data-toggle="tab" href="#pagefive"><button class="btn btn-primary btn-md col-sm-12" onclick="goTop();"  type="button">Next</button></a>
+         <br><br><br>
+         </div>
+      </div> 
+         </div>
+         </div><!--/ .row-->
+         </div><!--/ .form-wizard-->
+         </form><!--/ form-->
+         </div><!--/ .container-->
+         </div><!--/ .form-container-->
+         </div><!--/ #content-->
+         
+         </div>   
+         </div>
+         </div>
+         
+<!-- PAGE FOUR ENDS HERE -->
+       
+<!--PAGE FIVE STARTS HERE-->       
+         
+         <!--/ .form-wizard-->
+         </form><!--/ form-->
+         </div><!--/ .container-->
+         </div><!--/ .form-container-->
+         </div><!--/ #content-->
+         </div>   
+         </div></div>
+          
+<!-- PAGE FIVE ENDS HERE-->       
+         </div>
+      </div>
+   </section>
+   
+   <!--FOOTER-->
+  
+      <!-- Bottom Part -->
+      

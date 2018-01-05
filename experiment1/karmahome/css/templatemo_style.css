@@ -1,0 +1,59 @@
+
+section .row { margin-left: 0; margin-right: 0; overflow: hidden; }
+section h1 { text-transform: uppercase; color: white; margin-top: 0px; margin-bottom: 0px; line-height: 280px; text-align: center; }
+
+.center-row .center { display: table-cell; vertical-align: middle; }
+--------------------------------------------------------*/
+.flexslider a:hover, .flexslider a:focus { text-decoration: none; }
+.flexslider { border: none;	-webkit-border-radius: 0; border-radius: 0; }
+.flexslider .slides li { position: relative; }
+.flex-caption {
+    position:absolute;
+    left:0;
+    right:0;
+    bottom:0;
+    color: white;
+    background:rgba(197,82,87,.8);   
+    z-index:1;
+    padding: 20px;
+    margin: 0;
+}
+--------------------------------------------------------*/
+.services_buttons .icon-button:last-of-type { margin-bottom: 0; }
+.services_buttons .icon-button {
+	font-size: 400%;
+	color: white;
+	background-color: black;
+	cursor: pointer;
+	display: inline-block;
+	margin-bottom: 5px;
+	position: relative;
+	text-align: center;
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	    -ms-user-select: none;
+	        user-select: none;
+	width: 100%;
+	height: 100%;
+	max-width: 90px;
+	max-height: 90px;
+	line-height: 90px;
+}
+
+.services_buttons  .icon-button:hover, .services_buttons  .icon-button.active {	background-color: #0d416b; }
+
+#services h1 { background-color: #0d416b; }
+#services .col-md-2 { padding-right: 0; }
+#services .fa { line-height: 90px; }
+#services_content { height: 280px; }
+#services_content .tab-pane {  padding: 15px; }
+#services_content a { color: #FFFFFF; }
+
+/*http://cssarrowplease.com/*/
+.arrow-box { position: relative; color: white; background-color: #e98714; border-radius: 4px; margin-left: 30px; height: 100%;}
+.arrow-left { display: block; width: 30px; height: 58px; background: url(../images/left_arrow.png) no-repeat 0 0; position: absolute; left: 1px; margin-top: 20px; }
+
+
+
+
+

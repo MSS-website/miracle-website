@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_fbmessenger_white</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Landing-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-4-Copy-8">
+            <rect id="Rectangle-870" stroke="#979797" fill="#D8D8D8" opacity="0" x="0" y="0" width="32" height="32"></rect>
+            <path d="M9,23.2192284 C6.55486239,21.2931245 5,18.4006339 5,15.1666667 C5,9.36767679 9.99948696,4.66666667 16.1666667,4.66666667 C22.3338464,4.66666667 27.3333333,9.36767679 27.3333333,15.1666667 C27.3333333,20.9656565 22.3338464,25.6666667 16.1666667,25.6666667 C15.0403894,25.6666667 13.9530566,25.5098802 12.928007,25.2182526 L9,27.3333333 L9,23.2192284 Z M9.0016276,18.7130534 L15.0432943,12.2963867 L17.9182943,15.3380534 L23.4182943,12.2945964 L17.4182943,18.6695964 L14.4182943,15.711263 L9.0016276,18.7130534 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

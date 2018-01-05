@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<title>Bootstrap Notify v3.1.3</title>
+
+	<!-- Core Cascading Style Sheets -->
+	<link href="css.css" rel="stylesheet">
+	<link href="font-awesome.css" rel="stylesheet">
+	<link href="animate.css" rel="stylesheet">
+	<link href="bootstrap.css" rel="stylesheet">
+	<link href="tomorrow-night-eighties.css" rel="stylesheet">
+	<!-- Custom Cascading Style Sheets -->
+	<link href="icomoon.css" rel="stylesheet">
+	<link href="titatoggle.css" rel="stylesheet">
+	<link href="app.css" rel="stylesheet">
+
+	<style>
+		.animated {
+			-webkit-animation-iteration-count: infinite;
+			animation-iteration-count: infinite;
+		}
+	</style>
+</head>
+<body data-spy="scroll" data-target="nav" data-offset="72">
+
+	<section id="bootstrap-notify" class="[ container ]">
+		<div class="[ col-xs-12 col-lg-offset-1 col-lg-10 ]">
+		
+			<form method="post" action="#GenerateNotify">
+				<div class="[ row ]">
+					<div class="[ col-xs-12 col-sm-6 ][ demo-notify-position ]" data-toggle="buttons">
+						<button class="[ btn btn-orange ]">
+							<input name="position" autocomplete="off" value="top-left" type="radio"><span class="[ icon-arrow-up-left ]"></span>
+						</button><button class="[ btn ][ btn-orange ]">
+							<input name="position" autocomplete="off" value="top-center" type="radio"><span class="[ icon-arrow-up ]"></span>
+						</button><button class="[ btn ][ btn-orange ] active">
+							<input name="position" autocomplete="off" value="top-right" checked="checked" type="radio"><span class="[ icon-arrow-up-right ]"></span>
+						</button><button class="[ btn ][ btn-orange ]">
+							<input name="position" autocomplete="off" value="bottom-left" type="radio"><span class="[ icon-arrow-down-left ]"></span>
+						</button><button class="[ btn ][ btn-orange ]">
+							<input name="position" autocomplete="off" value="bottom-center" type="radio"><span class="[ icon-arrow-down ]"></span>
+						</button><button class="[ btn ][ btn-orange ]">
+							<input name="position" autocomplete="off" value="bottom-right" type="radio"><span class="[ icon-arrow-down-right ]"></span>
+						</button>
+					</div>
+
+					<div class="[ col-xs-12 col-sm-6 ]">
+						<div class="[ row ]">
+							<div class="[ col-xs-12 col-sm-6 ]">
+								<label>Allow Dismiss</label>
+								<div class="checkbox checkbox-slider--b checkbox-slider-lg">
+									<label>
+										<input id="demo-allow-dismiss" name="demo-allow-dismiss" checked="checked" type="checkbox"><span><span class="[ sr-only ]">Allow Dismiss</span></span>
+									</label>
+								</div>
+							</div>
+							<div class="[ col-xs-12 col-sm-6 ]">
+								<label>Pause on Hover</label>
+								<div class="checkbox checkbox-slider--b checkbox-slider-lg">
+									<label>
+										<input checked="checked" id="demo-pause-on-hover" name="demo-pause-on-hover" type="checkbox"><span><span class="[ sr-only ]">Pause on Hover</span></span>
+									</label>
+								</div>
+							</div>
+						</div>
+
+						<div class="[ row ]">
+							<div class="[ col-xs-12 col-sm-6 ]">
+								<label>Newest on Top</label>
+								<div class="checkbox checkbox-slider--b checkbox-slider-lg">
+									<label>
+										<input checked="checked" id="demo-newest-on-top" name="demo-newest-on-top" type="checkbox"><span><span class="[ sr-only ]">Newest on Top</span></span>
+									</label>
+								</div>
+							</div>
+
+							<div class="[ col-xs-12 col-sm-6 ]">
+								<div class="[ form-group ]">
+									<label for="#">Spacing</label>
+									<input id="demo-spacing" class="[ form-control ]" value="10" min="0" type="number">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="[ row ]">
+					<div class="[ col-xs-12 col-sm-3 ]">
+						<div class="[ form-group ]">
+							<label for="#">Offset X Axis</label>
+							<input id="demo-offset-x-axis" class="[ form-control ]" value="20" min="0" type="number">
+						</div>
+					</div>
+
+					<div class="[ col-xs-12 col-sm-3 ]">
+						<div class="[ form-group ]">
+							<label for="#">Offset Y Axis</label>
+							<input id="demo-offset-y-axis" class="[ form-control ]" value="20" min="0" type="number">
+						</div>
+					</div>
+
+					<div class="[ col-xs-12 col-sm-3 ]">
+						<div class="[ form-group ]">
+							<label for="#">Delay</label>
+							<input id="demo-delay" class="[ form-control ]" value="5000" min="0" step="100" type="number">
+						</div>
+					</div>
+
+				</div>
+
+				<div class="[ row ]">
+					<div class="[ col-xs-12 col-sm-offset-4 col-sm-4 ]">
+						<button class="[ btn ][ btn-orange btn-full-width ]">Generate Notify</button>
+					</div>
+				</div>
+		
+		
+		</form></div>
+	</section>
+
+	<!-- Core JavaScript/jQuery Plugins -->
+	<script src="jquery.js"></script>
+	<script src="bootstrap.js"></script>
+	<script src="highlight.js"></script>
+
+	<script src="jquery_002.js"></script>
+
+	<!-- Custom JavaScript/jQuery Plugins -->
+	<script src="bootstrap-notify.js"></script>
+	<script src="app.js"></script>
+
+</body></html>

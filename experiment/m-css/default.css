@@ -1,0 +1,64 @@
+/* Default Demo Style */
+@import url(http://fonts.googleapis.com/css?family=Roboto:300,400,700);
+
+/* HTML from Bootstrap */
+.clearfix {
+  *zoom: 1;
+}
+
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+
+
+/* Fusion Ads */
+.adswrap {
+	background: none repeat scroll 0 0 rgba(255, 255, 255, 0.8);
+	border: 1px none rgba(0, 0, 0, 0.1);
+	padding: 20px 15px;
+	position: fixed;
+	right: 15px;
+	z-index: 999999;
+	height: auto;
+	margin-top: 10px;
+}
+.adswrap .adsclose {
+	color: #777;
+	margin-bottom: 10px;
+	background: #ddd;
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 3px 8px;
+	font-size: 10px;
+	display: block;
+	cursor: pointer;
+	text-shadow: 0 1px 1px #fff;
+}
+#fusion_ad {
+	font-size: 12px;
+	width: 160px;
+	text-align: center;
+}
+#fusion_ad .fusionentire a {
+	display: block;
+	color: #444;
+	margin-bottom: 5px;
+}
+
+#fusion_ad .powered {
+	font-size: 10px;
+}
+
+/* Responsive */
+@media screen and (max-width: 25em) {
+	.nav-icon span { display: none; }
+}

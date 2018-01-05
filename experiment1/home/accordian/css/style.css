@@ -1,0 +1,259 @@
+
+.body-inner{
+	position: relative;
+	overflow: hidden;
+}
+
+a:link,
+a:visited{
+    text-decoration: none;
+}
+
+
+a:hover{
+	text-decoration: none;
+	color: #000;
+}
+
+a.read-more{
+	color: #323232;
+}
+
+
+.ts-padding {
+  padding: 50px;
+}
+
+.no-padding{
+	padding: 0;
+}
+
+.media>.pull-left{
+	margin-right: 20px;
+}
+
+/* Parallax */
+
+.parallax {
+	background-size: cover !important;
+	background-repeat: no-repeat;
+	background-position: 50% 0;
+	background-attachment: fixed !important;
+	padding: 110px 0;
+	color: #fff;
+	position: relative;
+}
+
+.parallax h2, .parallax h3{
+	color: #fff;
+	margin-top: 0;
+}
+.parallax .btn{
+	color: #fff;
+}
+
+.parallax-overlay{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: url(../images/overaly.png);
+}
+
+.parallax h3{
+	margin-bottom: 30px;
+}
+
+.parallax1{
+	background: url(../images/parallax/parallax1.jpg) no-repeat;
+}
+
+.parallax2{
+	background: url(../images/parallax/parallax2.jpg) no-repeat;
+}
+
+.parallax3{
+	background: url(../images/parallax/parallax3.jpg) no-repeat;
+}
+
+.parallax4{
+	background: url(../images/parallax/parallax4.jpg) no-repeat;
+}
+
+.parallax .btn.solid {
+	margin-left: 10px;
+}
+
+
+.service-icon {
+	height: 46px;
+	width: 90px;
+	margin-bottom: 30px;
+}
+.service-icon:before {
+	border-left: 45px solid rgba(0, 0, 0, 0);
+	border-right: 45px solid rgba(0, 0, 0, 0);
+	top: -30px;
+}
+.service-icon:after {
+	border-left: 45px solid rgba(0, 0, 0, 0);
+	border-right: 45px solid rgba(0, 0, 0, 0);
+	bottom: -30px;
+}
+
+.service-icon i {
+	font-size: 36px;
+	line-height: 46px;
+}
+
+/* Featured Tab */
+.featured-tab{
+	padding: 30px 0;
+}
+
+.featured-tab .nav-tabs{
+	border-bottom: 0;
+}
+
+.featured-tab .nav-tabs>li.active>a{
+	color: #fff;
+}
+
+.featured-tab .nav-tabs>li.active>a:after{
+
+}
+
+.featured-tab .nav-tabs>li>a{
+	background: #f2f2f2;
+	border-radius: 0;
+	padding: 0 15px 0;
+	color: #323232;
+	position: relative;
+	border: 0 !important;
+	line-height: 52px;
+	height: 52px;
+	margin-bottom: 3px;
+	-moz-transition: all 300ms ease;
+	-webkit-transition: all 300ms ease;
+	-ms-transition: all 300ms ease;
+	-o-transition: all 300ms ease;
+	transition: all 300ms ease;
+}
+
+.featured-tab .nav-tabs>li>a:after{
+	left: 100%;
+	border: transparent solid;
+	content: " ";
+	position: absolute;
+	border-width: 25px;
+	top: 50%;
+	border-left-color: #f2f2f2;
+	margin-top: -25px;
+		-moz-transition: all 300ms ease;
+	-webkit-transition: all 300ms ease;
+	-ms-transition: all 300ms ease;
+	-o-transition: all 300ms ease;
+	transition: all 300ms ease;
+}
+
+.featured-tab .nav-tabs>li>a:hover{
+	color: #fff;
+}
+.featured-tab .nav-tabs>li>a:hover:after{
+
+}
+
+.featured-tab .nav-tabs>li.active>a,
+.featured-tab .nav-tabs>li.active .tab-info h3,
+.featured-tab .nav-tabs>li>a:hover .tab-info h3{
+	color: #fff !important;
+}
+
+.featured-tab .tab-icon{
+	font-size: 28px;
+	display: inline-block;
+}
+
+.featured-tab .tab-info{
+	display: inline-block;
+	vertical-align: middle;
+	position: absolute;
+	left: 70px;
+	top: 50%;
+	margin-top: -12px;
+}
+
+.featured-tab .tab-info h3{
+	font-size: 16px;
+	line-height: normal;
+	margin: 0;
+}
+
+.featured-tab .tab-pane img.pull-left{
+	margin: 0 30px 10px 0;
+}
+
+.featured-tab .tab-pane img.pull-right{
+	margin: 0 0 0 15px;
+}
+.featured-tab .tab-pane h3{
+	margin-top: 0;
+	line-height: normal;
+	text-align: left;
+	font-size: 20px;
+}
+
+.featured-tab .tab-pane h3.text-center{
+	margin-bottom: 25px;
+}
+
+.featured-tab .tab-pane{
+	padding-left: 25px;
+	text-align: justify;
+}
+
+.featured-tab .tab-pane i.big{
+	font-size: 230px;
+}
+
+
+
+/
+/* Video block
+================================================== */
+
+.featured-video{
+	background: #fff;
+}
+
+.video-block-head h2{
+	font-size: 16px;
+	margin: 0;
+	line-height: normal;
+}
+
+.video-block-head h3{
+	font-size: 24px;
+	line-height: normal;
+	margin: 0;
+}
+
+.video-block-content{
+	padding: 10px 0;
+}
+
+.video-block-content h3{
+	margin: 0;
+	line-height: normal;
+}
+
+.video-block-content .btn.btn-primary{
+	color: #fff;
+	margin: 5px 0 0 40px;
+	padding: 8px 25px;
+}
+
+.video-block-content .btn.btn-primary:hover{
+	color: #333;
+}

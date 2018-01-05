@@ -1,0 +1,158 @@
+/* 2. Variable
+----------------*/
+/* 4. Global Style 
+--------------------*/
+.full-border {
+  border: 1px solid #222222;
+}
+.border-top-zero {
+  border-top: 0px solid transparent;
+}
+.border-right-zero {
+  border-right: 0px solid transparent;
+}
+.border-bottom-zero {
+  border-bottom: 0px solid transparent!important;
+}
+.border-left-zero {
+  border-left: 0px0px solid transparent;
+}
+.border-top {
+  border-top: 1px solid #222222;
+}
+.border-right {
+  border-right: 1px solid #222222;
+}
+.border-left {
+  border-left: 1px solid #222222;
+}
+.border-bottom {
+  border-bottom: 1px solid #222222;
+}
+.padding-zero {
+  padding: 0px;
+}
+.margin-zero {
+  margin: 0;
+}
+.padding-left-zero {
+  padding-left: 0;
+}
+.padding-right-zero {
+  padding-right: 0;
+}
+.bg-white {
+  background: #ffffff;
+}
+.heading-h3 {
+  background: #34d9be;
+  color: #ffffff;
+  font-size: 16px;
+  margin: 0;
+  padding: 10px 30px;
+}
+.hc-li > a {
+  background: #000000;
+  color: #ffffff;
+}
+.hc-li > a:hover,
+.hc-li > a:focus,
+.hc-li > a.active {
+  background: #22b89f;
+  color: #ffffff;
+}
+.single-down {
+  border-top: 1px solid #222222;
+}
+.single-down a {
+  background: #545c67;
+  color: #ffffff;
+}
+.single-down a:hover,
+.single-down a:focus,
+.single-down a.active {
+  background: #22b89f;
+  color: #ffffff;
+}
+.drop-down {
+  border-top: 1px solid #222222;
+}
+.drop-down li a {
+  background: #545c67;
+  color: #ffffff;
+}
+.drop-down li a:hover,
+.drop-down li a:focus,
+.drop-down li a.active {
+  background: #22b89f;
+  color: #ffffff;
+}
+.a2z-mega-wrapper {
+  background: #545c67;
+  border-top: 1px solid #222222;
+}
+.submenu-lists {
+  background: #34d9be;
+}
+.submenu-lists h4 {
+  background: #34d9be;
+}
+.menu-post .post h3 a {
+  display: block;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.a2z-form-control {
+  background: none;
+  color: #ffffff;
+}
+.a2z-form-control:hover,
+.a2z-form-control:focus,
+.a2z-form-control.active {
+  border: 1px solid #22b89f;
+}
+.button {
+  border: 1px solid #34d9be;
+  color: #ffffff;
+  background: #494f59;
+}
+.button:hover {
+  color: rgba(0, 0, 0, 0.85);
+  box-shadow: rgba(73, 221, 197, 0.7) 0 0px 0px 40px inset;
+  border: 1px solid rgba(73, 221, 197, 0.7);
+}
+.checkbox {
+  color: #fff;
+}
+.forget-password-link a {
+  color: #fff;
+}
+.contact-address p,
+.contact-number p,
+.contact-email p {
+  color: #ffffff;
+}
+.contact-address i,
+.contact-number i,
+.contact-email i {
+  color: #ffffff;
+}
+.nav-mobile i {
+  background: #22b89f;
+  color: #ffffff;
+}
+.nav-click {
+  background: #22b89f;
+  border-left: 1px solid #22b89f;
+}
+.nav-click i {
+  color: #ffffff;
+}
+/*------------------------------------*\
+    6. Catnav Responsive Media Queries
+\*------------------------------------*/
+@media only screen and (min-width: 240px) and (max-width: 768px) {
+  .hc-li {
+    margin-top: -1px;
+  }
+}

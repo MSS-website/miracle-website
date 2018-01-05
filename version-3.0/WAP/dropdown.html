@@ -1,0 +1,101 @@
+<html lang="en">
+<head>
+  <title>WAP | Writing</title>
+  <meta name="description" content="Writing Analysis Portal">
+       <meta name="keywords" content="wrote, Writing, written">
+       <meta name="viewport" content="width=device-width, initial-scale=1">
+       <link rel="shortcut icon" href="Images/favicon.ico" />
+       <link rel="stylesheet" href="WAP.css" type="text/css" />
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+<style>
+/*  .dropbtn {*/
+
+/*    color: black;*/
+/*    font-size: 16px;*/
+/*    text-decoration:underline;*/
+/*    cursor: pointer;*/
+/*    text-decoration-color: red;*/
+/*}*/
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    cursor:pointer;
+    text-decoration:#ef4048 underline;
+}
+
+.dropdown-content {
+    position:absolute;
+    left:-15px;top:0px;
+    display: none;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    z-index: 1;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+/*.dropdown-content:before{*/
+/*    content:"";*/
+/*    border-bottom: 20px solid red;*/
+/*border-left: 10px solid #fff;*/
+/*border-right: 10px solid #fff;*/
+/*width:0px*/
+/*}*/
+.dropdown-content a {
+    color: black;
+    padding: 5px 10px;
+    text-decoration: none;
+    display: block;
+    cursor:pointer;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+
+
+</style>
+</head>
+</body>
+<br><br><br>
+
+
+    <p class=" dropdown">Hepl  </p>
+    <p class="dropdown">Help1 </p>
+    <br>
+    <p class="dropdown">Help2 </p>
+    <br><br><br><br><br><br>
+    <p class="dropdown">Help2 </p>
+     <br><br><br><br><br><br>
+    <p class="dropdown">Help2 </p>
+    <!--<p class="dropdown">hola</p>-->
+    <!--<p class="dropdown">get</p>-->
+     <div class="dropdown-content" style="width:120px !important">
+      <a>Help</a>
+      <a>helping</a>
+      <a>helped</a>
+      <a>helper</a>
+      <a>helps</a>
+     </div>
+
+ 
+
+
+
+
+ <script>
+  $("document").ready(function(){
+      $(".dropdown").click(function(){
+          $(".dropdown-content").toggle();
+var tPosX = event.pageX - 0;
+var tPosY = event.pageY + 10;
+$('.dropdown-content').css({top: tPosY, left: tPosX});
+
+      })
+  })
+ 
+  </script>
+  
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>

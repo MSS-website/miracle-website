@@ -1,0 +1,30 @@
+﻿.multiselect-container { position: absolute; list-style-type: none; margin: 0; padding: 0; height:280px; overflow-y:scroll;}
+    /*.multiselect-container .input-group { margin: 5px; }*/
+    .multiselect-container > li { padding: 0; }
+        .multiselect-container > li > a.multiselect-all label { font-weight: 700; }
+        .multiselect-container > li.multiselect-group label { margin: 0; padding: 3px 20px; height: 100%; font-weight: 700; }
+        .multiselect-container > li.multiselect-group-clickable label { cursor: pointer; }
+        .multiselect-container > li > a { padding: 0; }
+            .multiselect-container > li > a > label { margin: 0; height: 100%; cursor: pointer; font-weight: 400; padding: 3px 20px 3px 40px; }
+                .multiselect-container > li > a > label.radio, .multiselect-container > li > a > label.checkbox { margin: 0; }
+                .multiselect-container > li > a > label > input[type=checkbox] { margin-bottom: 5px; }
+.filter .btn { padding: 6px 3px; }
+.btn-group > .btn-group:nth-child(2) > .multiselect.btn { border-radius: 0; }
+.form-inline .multiselect-container label.checkbox, .form-inline .multiselect-container label.radio { padding: 3px 20px 3px 40px; }
+.form-inline .multiselect-container li a label.checkbox input[type=checkbox], .form-inline .multiselect-container li a label.radio input[type=radio] { margin-left: -20px; margin-right: 0; }
+
+/****************custom css**************/
+
+.multiselect { text-align: left; }
+b.caret { position: absolute; right: 8px; top: 50%; }
+
+.btn-group .multiselect-dropdown { padding-top: 5px; padding-bottom: 5px; width: 100% !important; position: relative; }
+
+ul.multiselect-container > li.active a { border-bottom: 1px solid #fff !important; background: #F4781E !important;}
+.multiselect-container > li.active > a > label {color:#fff;}
+ul.multiselect-container li a:hover { background: #F4781E; }
+.common ul.multiselect-container .active { border: none !important; }
+
+@media (min-width:320px) and (max-width:567px) {
+    .filterTagsContainerStyle {padding-left:23px;}
+}

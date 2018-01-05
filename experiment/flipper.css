@@ -1,0 +1,63 @@
+
+ /*------------------------------------Pop-up styles-------------------------------------*/
+
+.modal.fade {
+top: 60%;
+-webkit-transition: opacity 0.3s linear, top 0.3s ease-out;
+ -moz-transition: opacity 0.3s linear, top 0.3s ease-out;
+   -o-transition: opacity 0.3s linear, top 0.3s ease-out;
+      transition: opacity 0.3s linear, top 0.3s ease-out;
+}
+
+.modal.fade.in {
+top: 5.6%; 
+
+}
+.nav-tabs > li > a {
+    height: 40px; !important;
+}
+.modal-open .modal,.btn:focus{
+    outline:none!important
+}
+
+.modal {
+border:none;
+position: fixed;
+left: 25%;
+width: 540px;
+height: 525px;
+}
+modal-header{min-height:16.428571429px; padding:15px; border-bottom:1px solid rgb(229, 229, 229); !important;}
+.modal .modal-body{
+    padding:0px; !important;
+}
+.modal button{margin-left:0px; !important;}
+
+.container{
+    z-index:1040;
+    }
+ .modal input[type="text"], .modal input[type="password"] {
+  
+    width: 230px; !important;
+    border-radius: 4px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    }
+.modal input[type="button"]{
+    width: 700px; !important;
+   
+}
+    
+.modal-footer {
+    padding: 10px 2px 0px; !important;
+    margin-top: 0px; !important;
+    border-top:0px solid rgb(229, 229, 229); !important;
+}
+
+
+/*.blur {
+    box-shadow: 0px 0px 20px 20px rgba(255,255,255,1);
+    text-shadow: 0px 0px 10px rgba(51, 51, 51, 0.9);
+    transform: scale(0.9);
+    opacity: 0.6; */
+}

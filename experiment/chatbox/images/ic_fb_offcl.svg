@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_fb_offcl</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Landing-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ic_fb_offcl">
+            <rect id="Rectangle-1153" stroke="#979797" fill="#D8D8D8" opacity="0" x="0" y="0" width="16" height="16"></rect>
+            <circle id="Oval-374" fill="#5B91FF" cx="8" cy="8" r="6"></circle>
+            <path d="M5.52923943,8.35294118 L7.29411765,10.1176471 L10.5986328,6.27613741" id="Path-2171" stroke="#FFFFFF" stroke-width="1.5"></path>
+        </g>
+    </g>
+</svg>

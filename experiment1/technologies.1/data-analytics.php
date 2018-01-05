@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+      <title>
+            Data and Analytics | Miracle
+        </title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/main.css" rel="stylesheet" type="text/css">
+        <link href="../css/default.css" rel="stylesheet" type="text/css">
+        <link href="../css/component.css" rel="stylesheet" type="text/css">
+        <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+        <link href="../images/favicon.ico" rel="shortcut icon">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+        <style type="text/css">
+         
+        /* Custom Styles */
+        ul.nav-tabs {
+
+        margin-top: 20px;
+
+        border-radius: 0px;
+
+
+        }
+        ul.nav-tabs li {
+        margin: 0;
+
+        }
+        a.active{
+            background-color:#0d416b;
+            color:#ffffff;
+            
+        }
+        a:hover{
+            color:#232527;
+        }
+        ul.nav-tabs li:first-child {
+        border-top: none;
+        }
+        ul.nav-tabs li a {
+        border-style: zero;
+        border-bottom: 1px solid black;
+        margin: 0;
+        padding: 8px 16px;
+        border-radius: 0;
+        }
+        ul.nav-tabs li.active a, ul.nav-tabs li.active a:hover {
+        color: #fff;
+        background: #0088cc;
+        border: 1px solid #0088cc;
+        }
+        ul.nav-tabs li:first-child a {
+        border-radius: 4px 4px 0 0;
+        }
+        ul.nav-tabs li:last-child a {
+        border-radius: 0 0 4px 4px;
+        }
+        ul.nav-tabs.affix {
+        top: 65px;
+        /* Set the top position of pinned element */
+        }
+        </style>
+        <script>
+            
+$(document).ready(function(){  $('[data-toggle=offcanvas]').click(function() {
+    $('.row-offcanvas').toggleClass('active');
+  });
+});
+        </script>
+        <script src="jquery-1.7.1.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+		$(function(){ // document ready
+
+		  if (!!$('.sticky').offset()) { // make sure ".sticky" element exists
+
+		    var stickyTop = $('.sticky').offset().top; // returns number 
+
+		    $(window).scroll(function(){ // scroll event
+
+		      var windowTop = $(window).scrollTop(); // returns number 
+
+		      if (stickyTop < windowTop){
+		        $('.sticky').css({ position: 'fixed', top: 0 });
+		      }
+		      else {
+		        $('.sticky').css('position','static');
+		      }
+
+		    });
+
+		  }
+
+		});
+	</script>
+	 <style>
+                #wrapper { 
+	
+}
+#sidebar {
+	float:right;
+	width:auto;
+}
+	#sidebar #widget {
+		width:auto;
+		margin-bottom:500px;
+		
+	h6 {
+    text-align: center;
+} 
+
+border {
+    border-style: zero;
+    border-bottom: solid black;
+}
+	    
+	}
+	@media (min-width: 300px) {
+
+  #sidebar.affix-top {
+
+  }
+
+
+  #sidebar.affix {
+  width:90px;
+  height:100%;
+  top: 100px;
+  }
+  #sidebar.bottom{
+     
+  }
+}
+            </style>
+            <script>
+            
+            </script>
+        <?php include '../header.php';?>
+    </head>
+    
+    <body data-spy="scroll" data-target="#myScrollspy">
+        <div class="container">
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="row">
+            
+            <br>
+           
+            <div id="wrapper" class="row">
+                <div class="row">
+                    <div class"col-xs-1"></div>
+                    <div class="col-sm-9 col-md-9 col-xs-7">
+                        <div class="row">
+                            <div class="col-sm-6 text-left">  
+                            <div class="pageTitle">
+                        <strong>Data and Analytics</strong>
+                    </div>
+                            </div>
+                            <div class="col-sm-6 text-right">
+                                
+                                <ul class="breadcrumb pull-right">
+                        <li>
+                            <a href="../">Home</a>
+                        </li>
+                        <li>
+                            <a href="../technologies/">Technologies</a>
+                        </li>
+                        <li class="active">Data and Analytics
+                        </li>
+                    </ul>
+                    </div>
+                    </div>
+                    
+                    
+                    <br>
+                    <p class="methodText">
+                        With the emergence of Mobile and Social, the amount of data being generated by IT systems has soared. Users around the world are generating heterogeneous and raw data every second. A user at a grocery store is generating preference data during his billing. A girl buying her wedding dress, is posting preference data onto Social. Data is everywhere and it is time enterprises leverage this data to accelerate business growth.
+                    </p>
+                    <p class="methodText">
+                        When this data is put to proper use it helps to provide better insight into customer behaviour and gives you the ability to take proactive decisions. You can repair a washing machine even before it stops working by using predictive analytics and hence provide a richer customer experience. All this transactional data has to be stored somewhere and in turn has to be analyzed and put to proper use. Our Data teams at Miracle help you to manage your data effectively and in turn gain insights into data patterns.
+                    </p>
+                    <p class="methodText">
+                        <strong>Miracle Data Services Practice provides several services ranging from,</strong>
+                    </p>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <ul>
+                                <li>Database Administration Services
+                                </li>
+                                <li>Database Migration Services
+                                </li>
+                                <li>Data Extraction Services(ETL)
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-4">
+                            <ul>
+                                <li>Data Quality Services
+                                </li>
+                                <li>Master Data Management Services
+                                </li>
+                                <li>Data Warehousing Services
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-4">
+                            <ul>
+                                <li>Business Intelligence
+                                </li>
+                                <li>Reporting Services
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <p class="methodText">
+                        <strong>Database Expertise</strong>
+                    </p>
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <ul>
+                                <li>IBM DB2
+                                </li>
+                                <li>Oracle
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-2">
+                            <ul>
+                                <li>SSIS and SSRS
+                                </li>
+                                <li>MySQL
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-2">
+                            <ul>
+                                <li>MS SQLServer
+                                </li>
+                                <li>Cloudant(NoSQL)
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-2">
+                            <ul>
+                                <li>Mongodb
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-2"></div>
+                        <div class="col-sm-2"></div>
+                    </div>
+                    <p class="methodText">
+                        <strong>Analytic Expertise</strong>
+                    </p>
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <ul>
+                                <li>IBM Cognos
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-2">
+                            <ul>
+                                <li>Tableau
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-2">
+                            <ul>
+                                <li>Hadoop
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-3">
+                            <ul>
+                                <li>Google Analytics
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-1"></div>
+                        <div class="col-sm-2"></div>
+                    </div>
+                    <p>
+                        With petabytes of data out there, it is time you started leveraging it to your advantage. For more information on <strong>Data and Analytics</strong>, contact us at <a class="linkText" href="mailto:data@miraclesoft.com"><strong style="text-decoration: underline">data@miraclesoft.com</strong></a>
+                    </p>
+                
+                <div class="col-sm-1"></div>
+                  
+                  
+                    <br>
+                    <br>
+                    </div>
+                    <div class="cold-md-9  col-xs-3" id="">
+                      
+                        <div id="sidebar">
+				
+				            <div id="widget" class="sticky">
+				           
+                            <ul class="nav nav-tabs nav-stacked affix-top" data-offset-top="100" data-offset-bottom="500" data-spy="affix">
+                        
+                            <li>
+                                <a href="./api-management.php">API Management</a>
+                            </li>
+                            <li>
+                                <a href="./big-data-cloud-mobile.php">Big Data, Cloud and Mobile</a>
+                            </li>
+                            <li>
+                                <a href="./business-process-management.php">Process Management</a>
+                            </li>
+                            <li>
+                                <a class="active">Data, ETL</a>
+                            </li>
+                            <li>
+                                <a href="./digital-experience-commerence.php">Digital Experience</a>
+                            </li>
+                            <li>
+                                <a href="./b2b_edi_mft.php">File Transfer</a>
+                            </li>
+                            <li>
+                                <a href="./application-integration.php">SOA Connectivity</a>
+                            </li>
+                            <li>
+                                <a href="#">Testing (QA)</a>
+                            </li>
+                            <br>
+                            <a href="https://mss-templete-sivanmyc.c9.io/why/success.php"> <img src="fss.png"></img </a>
+                            
+                            
+                            
+                        </ul>
+                        </div>
+                        </div>
+                        
+                    </div>
+                    <div class"col-xs-1"></div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="footer-wrapper">
+            <div class="footer">
+                <?php include '../footer.php';?>
+            </div>
+        </div>
+    
+    </body>
+</html>

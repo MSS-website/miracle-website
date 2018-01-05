@@ -1,0 +1,20 @@
+@media (max-width: 767px) {
+   
+    #main-content {margin-left: 0 !important;}
+    
+    .tl-date-small > span {
+        float: left;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .mail-content {
+        margin-left: 40px;
+    }
+
+}
+
+.container {
+    min-width: 100%;
+}

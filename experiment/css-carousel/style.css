@@ -1,0 +1,25 @@
+
+a,
+a:hover,
+a:focus {
+    text-decoration: none;
+    outline: none;
+}
+::selection {
+    background: #34495e;
+    color: #fff;
+}
+::-moz-selection {
+    background: #34495e;
+    color: #fff;
+}
+
+a { color: #444e67 }
+a:hover { color: #34495e }
+p { line-height: 22px }
+/*header*/
+.head-section { border-bottom: 1px solid #eee }
+.head-section .navbar {
+    margin-bottom: 0;
+}
+.navbar-default { border: none }

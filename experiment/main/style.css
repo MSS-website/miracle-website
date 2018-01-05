@@ -1,0 +1,9 @@
+.btn:hover{cursor:pointer;background:#fff;color:#6bbe98}
+body.marketing .btn.lg{padding:14px 14px;font-size:14px}
+body.marketing .btn.mint{border-color:#6bbe98;color:#6bbe98}
+body.marketing .btn.mint:hover{cursor:pointer;background:#6bbe98;color:#fff}
+body.marketing .btn.gray{border-color:#CFD3D3;color:#CFD3D3
+    
+}body.marketing .btn.gray:hover{cursor:pointer;background:#CFD3D3;color:#fff}
+@media screen and (min-width: 48em){body.marketing .btn.lg{padding:16px;font-size:18px}}
+select{height:20px;border-radius:5px;}
