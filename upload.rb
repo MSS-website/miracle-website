@@ -21,7 +21,7 @@ post '/payload' do
      files.include?('special-file.txt')
 
     Mail.deliver do
-      from     '.com'
+      from     'vchintala@miraclesoft.com'
       to       'balipalligaythri99@gmail.com'
       subject  'final'
       body     "ALARM"
