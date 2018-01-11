@@ -21,9 +21,9 @@ post '/payload' do
      files.include?('special-file.txt')
 
     Mail.deliver do
-      from     'tchacon@example.com'
-      to       'tchacon@example.com'
-      subject  'Scott Changed the File'
+      from     '.com'
+      to       'balipalligaythri99@gmail.com'
+      subject  'final'
       body     "ALARM"
     end
   end
